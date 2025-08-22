@@ -54,4 +54,6 @@ async def verifier(ctx, member: discord.Member = None):
         except discord.Forbidden:
             print(f"Impossible d’envoyer un DM à {member.display_name} (DM fermés).")
 
-bot.run(MTQwODU3MjEyMzYwNTI0MTkwOQ.GhEBIr.Yg0Cxh1R69YZqdqF3vx-HFKp7z-xhLQGn1JjL4)
+bot.run(os.getenv("MTQwODU3MjEyMzYwNTI0MTkwOQ.GhEBIr.Yg0Cxh1R69YZqdqF3vx-HFKp7z-xhLQGn1JjL4"))
+
+
